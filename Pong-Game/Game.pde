@@ -149,7 +149,7 @@ void draw()
     }
 
     stroke(0);
-    fill(80);
+    fill(70, 130, 180);
     rect(posxA, posyA, 10, 50);
     rect(posxB, posyB, 10, 50);
 
