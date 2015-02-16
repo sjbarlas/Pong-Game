@@ -32,7 +32,7 @@ void setup()
 
   strokeWeight(2);
 
-  frameRate(160);
+  frameRate(120);
 } // end setup
 
 void draw()
