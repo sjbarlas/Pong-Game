@@ -55,7 +55,7 @@ void draw()
 
   if (start == false)
   {
-    background(100);
+    background(200, 20, 10);
     stroke(0);
     textSize(48);
     fill(255);
