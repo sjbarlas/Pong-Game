@@ -66,7 +66,7 @@ void draw()
 
     line(200, 0, 200, 250); // Middle Line
 
-    fill(255);
+    fill(random(255), random(255), random(255));
     ellipse(ballX, ballY, 10, 10);
 
     ballX = ballX + dirX;
