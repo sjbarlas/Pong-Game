@@ -189,7 +189,7 @@ void keyPressed()
     else if (keyCode == DOWN)
     {
       posyB = min(225, posyB + 2);
-    } // end else if
+    } // end DOWN
   } // end CODED key
   
   else if (key == 'W' || key == 'w')
