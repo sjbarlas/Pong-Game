@@ -225,5 +225,5 @@ void mousePressed()
       loop();
       start = false;
     } // end if
-  } // end if
+  } // end start
 } // end mousePressed
