@@ -92,7 +92,7 @@ void draw()
         dirX = +2;
         dirY = 0;
       }
-    } // end if
+    } // end ballX
 
     // Ball touching Player B
     if (ballX == 380 && ballY >= posyB-25 && ballY <= posyB+25) 
