@@ -200,7 +200,7 @@ void keyPressed()
   else if (key == 'S' || key == 's')
   {
     posyA = min(225, posyA + 2);
-  } // end else if
+  } // end S/s
 } // end keyPressed
 
 void mousePressed()
