@@ -114,7 +114,7 @@ void draw()
         dirX = -2;
         dirY = 0;
       }
-    } // end if
+    } // end ballX
 
     // Left Boundary
     if (ballX < 0) 
