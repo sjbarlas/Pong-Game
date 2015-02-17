@@ -51,7 +51,7 @@ void draw()
     text("Click start\nto play!", 170, 150);
     textSize(15);
     noLoop();
-  } // end if
+  } // end start
 
   if (start == false)
   {
