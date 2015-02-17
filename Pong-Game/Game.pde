@@ -184,7 +184,7 @@ void keyPressed()
     if (keyCode == UP)
     {
       posyB = max(25, posyB - 2);
-    } // end if
+    } // end UP
     
     else if (keyCode == DOWN)
     {
