@@ -195,7 +195,7 @@ void keyPressed()
   else if (key == 'W' || key == 'w')
   {
     posyA = max(25, posyA - 2);
-  } // end else if
+  } // end W/w
   
   else if (key == 'S' || key == 's')
   {
