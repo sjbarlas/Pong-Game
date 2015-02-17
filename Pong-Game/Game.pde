@@ -174,7 +174,7 @@ void draw()
       ballY = 150;
       noLoop();
     }
-  } // end if
+  } // end start
 } // end draw
 
 void keyPressed()
