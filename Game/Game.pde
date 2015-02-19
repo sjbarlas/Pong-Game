@@ -1,4 +1,4 @@
-// Player A
+// Player a
 int posxA = 10; // x
 int posyA = 125; // y
 
