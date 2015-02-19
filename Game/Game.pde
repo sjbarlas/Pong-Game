@@ -22,7 +22,7 @@ boolean start = true; // Starting the game
 
 void setup()
 {
-  size(400, 250);
+  size(600, 600);
 
   // Centre placing
   rectMode(CENTER);
@@ -41,7 +41,7 @@ void draw()
   { 
     // Splash screen
     background(0);
-    text("Pong!", 130, 70);
+    text("PONG!", 130, 70);
     fill(255);
     stroke(0, 0, 255);
     rect(200, 150, 100, 75);
