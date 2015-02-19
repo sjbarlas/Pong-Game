@@ -2,7 +2,7 @@
 int posxA = 10; // x
 int posyA = 125; // y
 
-// Player B
+// Player b
 int posxB = 390; // x
 int posyB = 125; // y
 
