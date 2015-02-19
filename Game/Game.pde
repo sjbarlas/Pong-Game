@@ -46,7 +46,7 @@ void draw()
     // Splash screen
     background(0);
     textFont(font, 100);
-    fill(255);
+    fill(255, 20, 147);
     text("PONG!", 130, 170);
     fill(255);
     stroke(0, 0, 255);
