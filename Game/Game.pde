@@ -41,14 +41,17 @@ void draw()
   { 
     // Splash screen
     background(0);
-    text("PONG!", 130, 70);
+    textSize(100);
+    fill(255);
+    text("PONG!", 130, 170);
     fill(255);
     stroke(0, 0, 255);
-    rect(200, 150, 100, 75);
+    rect(300, 350, 100, 75);
     noStroke();
     noFill();
     fill(255, 0, 0);
-    text("Click start\nto play!", 170, 150);
+    textSize(15);
+    text("Click start\nto play!", 370, 350);
     textSize(15);
     noLoop();
   } // end start
