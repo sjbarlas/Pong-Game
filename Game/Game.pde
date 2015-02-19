@@ -20,6 +20,8 @@ int pntsB = 0;
 
 boolean start = true; // Starting the game
 
+PFont font;
+
 void setup()
 {
   size(600, 600);
@@ -33,6 +35,8 @@ void setup()
   strokeWeight(2);
 
   frameRate(120);
+  
+  font = loadFont("Tahoma-Bold-100.vlw");
 } // end setup
 
 void draw()
@@ -41,7 +45,7 @@ void draw()
   { 
     // Splash screen
     background(0);
-    textSize(100);
+    textFont(font, 100);
     fill(255);
     text("PONG!", 130, 170);
     fill(255);
