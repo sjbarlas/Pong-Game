@@ -1,7 +1,7 @@
 /*
-Fuschia
-Black
-Red
+- Fuschia
+- Black
+- Red
 */
 
 // Player A
