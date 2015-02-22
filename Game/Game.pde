@@ -60,7 +60,7 @@ void draw()
     
     fill(255, 69, 0);
     stroke(255);
-    rect(400, 350, 10, 75);
+    rect(300, 350, 200, 40);
     noStroke();
     noFill();
     fill(255, 0, 0);
