@@ -48,7 +48,7 @@ void draw()
     // Splash screen
     background(0);
 
-    int i = 10;
+    int i = 11;
 
     for (int x = 0; x < width; x+=i)
     {
