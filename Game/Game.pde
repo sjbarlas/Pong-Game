@@ -27,6 +27,7 @@ int pntsB = 0;
 boolean start = true; // Starting the game
 
 PFont font;
+PFont font2;
 
 void setup()
 {
@@ -60,12 +61,12 @@ void draw()
     
     fill(255, 69, 0);
     stroke(255);
-    rect(300, 350, 200, 40);
+    rect(300, 370, 200, 40);
     noStroke();
     noFill();
     fill(255, 0, 0);
     textSize(15);
-    //text("Click start\nto play!", 370, 350);
+    text("P L A Y!", 270, 375);
     textSize(15);
     noLoop();
   } // end start
