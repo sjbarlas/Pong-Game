@@ -54,6 +54,7 @@ void draw()
     {
       for (int y = 0; y < height; y+=i)
       {
+        strokeWeight(6);
         stroke(30, 144, 255);
         line(x, y, x + 10, y + 10);
         noStroke();
