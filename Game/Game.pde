@@ -44,6 +44,7 @@ void setup()
   frameRate(120);
   
   font = loadFont("Tahoma-Bold-100.vlw");
+  font2 = loadFont("BuxtonSketch-20.vlw");
 } // end setup
 
 void draw()
@@ -64,8 +65,9 @@ void draw()
     rect(300, 370, 200, 40);
     noStroke();
     noFill();
+    
     fill(255, 0, 0);
-    textSize(15);
+    textFont(font2, 20);
     text("P L A Y!", 270, 375);
     textSize(15);
     noLoop();
