@@ -54,9 +54,11 @@ void draw()
     {
       for (int y = 0; y < height; y+=i)
       {
-        fill(255, 0, 0);
         stroke(30, 144, 255);
         line(x, y, x + 10, y + 10);
+        noStroke();
+        //stroke(120);
+        //line(x-10, y-10, x, y);
       } //  end for
     } // end for
 
