@@ -59,17 +59,18 @@ void draw()
     fill(255, 20, 147);
     text("PONG!", 130, 170);
     
-    
+    // RECT
     fill(255, 69, 0);
     stroke(255);
     rect(300, 370, 200, 40);
     noStroke();
     noFill();
     
+    // PLAY
     fill(124,252,0);
     textFont(font2, 20);
     text("P L A Y!", 270, 375);
-    textSize(15);
+    //textSize(15);
     noLoop();
   } // end start
 
