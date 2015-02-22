@@ -36,7 +36,7 @@ void setup()
   strokeWeight(2);
 
   frameRate(120);
-  
+
   font = loadFont("Tahoma-Bold-100.vlw");
   font2 = loadFont("BuxtonSketch-20.vlw");
 } // end setup
@@ -47,26 +47,37 @@ void draw()
   { 
     // Splash screen
     background(0);
-    
+
     // PONG
     textFont(font, 100);
     fill(255, 20, 147);
     text("PONG!", 130, 170);
-    
+
     // RECT
     fill(255, 69, 0);
     stroke(255);
     rect(300, 370, 200, 40);
     noStroke();
     noFill();
-    
+
     // PLAY
-    fill(124,252,0);
+    fill(124, 252, 0);
     textFont(font2, 20);
     text("P L A Y!", 270, 375);
     //textSize(15);
     noLoop();
-  } // end start
+
+    int i = 10;
+
+    for (int x = 0; x < width; x+=i)
+    {
+      for (int y = 0; y < height; y+=i)
+      {
+        fill(255,0,0);
+        line(x + 0, y + 0, x + 0, y + 0);
+      } //  end for
+    } // end for
+  }
 
   if (start == false)
   {
@@ -200,18 +211,18 @@ void keyPressed()
     {
       posyB = max(25, posyB - 2);
     } // end UP
-    
+
     else if (keyCode == DOWN)
     {
       posyB = min(225, posyB + 2);
     } // end DOWN
   } // end CODED key
-  
+
   else if (key == 'W' || key == 'w')
   {
     posyA = max(25, posyA - 2);
   } // end W/w
-  
+
   else if (key == 'S' || key == 's')
   {
     posyA = min(225, posyA + 2);
@@ -242,3 +253,4 @@ void mousePressed()
     } // end if
   } // end start
 } // end mousePressed
+
