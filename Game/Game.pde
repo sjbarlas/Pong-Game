@@ -66,7 +66,7 @@ void draw()
     noStroke();
     noFill();
     
-    fill(255, 0, 0);
+    fill(124,252,0);
     textFont(font2, 20);
     text("P L A Y!", 270, 375);
     textSize(15);
