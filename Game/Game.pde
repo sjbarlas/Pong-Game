@@ -1,9 +1,3 @@
-/*
-- Fuschia
-- Black
-- Red
-*/
-
 // Player A
 int posxA = 10; // x
 int posyA = 125; // y
