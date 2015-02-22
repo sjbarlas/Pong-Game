@@ -48,6 +48,18 @@ void draw()
     // Splash screen
     background(0);
 
+    int i = 10;
+
+    for (int x = 0; x < width; x+=i)
+    {
+      for (int y = 0; y < height; y+=i)
+      {
+        fill(255, 0, 0);
+        stroke(30, 144, 255);
+        line(x, y, x + 10, y + 10);
+      } //  end for
+    } // end for
+
     // PONG
     textFont(font, 100);
     fill(255, 20, 147);
@@ -66,17 +78,6 @@ void draw()
     text("P L A Y!", 270, 375);
     //textSize(15);
     noLoop();
-
-    int i = 10;
-
-    for (int x = 0; x < width; x+=i)
-    {
-      for (int y = 0; y < height; y+=i)
-      {
-        fill(255,0,0);
-        line(x + 0, y + 0, x + 0, y + 0);
-      } //  end for
-    } // end for
   }
 
   if (start == false)
