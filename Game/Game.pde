@@ -57,6 +57,8 @@ void draw()
         stroke(30, 144, 255);
         line(x, y, x + 10, y + 10);
         noStroke();
+        stroke(255,0,0);
+        line(x, y+10, x+10, y);
         //stroke(120);
         //line(x-10, y-10, x, y);
       } //  end for
