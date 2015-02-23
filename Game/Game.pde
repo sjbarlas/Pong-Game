@@ -3,8 +3,6 @@ Program for a simple Pong Game
 Author: Saira J. Barlas
 */
 
-//ArrayList balls;
-
 // Player A
 int posxA = 10; // x
 int posyA = 125; // y
@@ -46,8 +44,6 @@ void setup()
 
   font = loadFont("Tahoma-Bold-100.vlw");
   font2 = loadFont("BuxtonSketch-20.vlw");
-
-  //balls = new ArrayList();
 } // end setup
 
 void draw()
@@ -73,8 +69,6 @@ void draw()
         //line(x-10, y-10, x, y);
       } //  end for
     } // end for
-
-    //balls.add(new okBall());
 
     // PONG
     textFont(font, 100);
