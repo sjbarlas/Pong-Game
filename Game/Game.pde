@@ -3,7 +3,7 @@ Program for a simple Pong Game
 Author: Saira J. Barlas
 */
 
-ArrayList ball;
+ArrayList balls;
 
 // Player A
 int posxA = 10; // x
