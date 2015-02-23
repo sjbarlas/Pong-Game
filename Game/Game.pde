@@ -1,7 +1,7 @@
 /*
 Program for a simple Pong Game
-Author: Saira J. Barlas
-*/
+ Author: Saira J. Barlas
+ */
 
 ArrayList balls;
 
@@ -46,7 +46,7 @@ void setup()
 
   font = loadFont("Tahoma-Bold-100.vlw");
   font2 = loadFont("BuxtonSketch-20.vlw");
-  
+
   balls = new ArrayList();
 } // end setup
 
@@ -67,7 +67,7 @@ void draw()
         stroke(30, 144, 255);
         line(x, y, x + 10, y + 10);
         noStroke();
-        stroke(124,252,0);
+        stroke(124, 252, 0);
         line(x, y+10, x+10, y);
         //stroke(120);
         //line(x-10, y-10, x, y);
