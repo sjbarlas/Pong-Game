@@ -3,7 +3,7 @@ Program for a simple Pong Game
 Author: Saira J. Barlas
 */
 
-ArrayList balls;
+//ArrayList balls;
 
 // Player A
 int posxA = 10; // x
@@ -47,7 +47,7 @@ void setup()
   font = loadFont("Tahoma-Bold-100.vlw");
   font2 = loadFont("BuxtonSketch-20.vlw");
 
-  balls = new ArrayList();
+  //balls = new ArrayList();
 } // end setup
 
 void draw()
@@ -74,7 +74,7 @@ void draw()
       } //  end for
     } // end for
 
-    balls.add(new okBall());
+    //balls.add(new okBall());
 
     // PONG
     textFont(font, 100);
@@ -263,7 +263,8 @@ void mousePressed()
 
   if (start == true) 
   {
-    if ((mouseX <= 300 && mouseX >= 100) &&(mouseY <= 370 && mouseY >= 330)) // Clicking on the box
+    //rect(300, 370, 200, 40);
+    if ((mouseX <= 300 && mouseX >= 100) && (mouseY <= 370 && mouseY >= 330)) // Clicking on the box
     {
       loop();
       start = false;
