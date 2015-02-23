@@ -264,7 +264,7 @@ void mousePressed()
   if (start == true) 
   {
     //rect(300, 370, 200, 40);
-    if ((mouseX <= 300 && mouseX >= 100) && (mouseY <= 370 && mouseY >= 330)) // Clicking on the box
+    if ((mouseX >= 300) && (mouseX <= 500) && (mouseY >= 370) && (mouseY <= 410)) // Clicking on the box
     {
       loop();
       start = false;
