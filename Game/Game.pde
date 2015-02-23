@@ -101,7 +101,7 @@ void draw()
     text(pntsA, 165, 35);
     text(pntsB, 203, 35);
 
-    line(300, 0, 300, 350); // Middle Line
+    line(300, 0, 300, 300); // Middle Line
 
     fill(random(255), random(255), random(255));
     ellipse(ballX, ballY, 10, 10);
