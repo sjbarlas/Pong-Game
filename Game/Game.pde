@@ -1,4 +1,7 @@
-
+/*
+Program for a simple Pong Game
+Author: Saira J. Barlas
+*/
 
 ArrayList balls;
 
