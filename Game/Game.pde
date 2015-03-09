@@ -31,6 +31,8 @@ PFont font2;
 void setup()
 {
   size(600, 600);
+  
+  frame.setTitle("Pong");
 
   // Centre placing
   rectMode(CENTER);
